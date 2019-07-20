@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\CMakeFiles\2338c5ad47fe2b231095bc3df88bf68e\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{26A8BB98-BFF7-3940-8FD6-C60E8C37B09C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

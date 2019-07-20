@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\NNNNET\poco_1.7.9\poco\_build_win32_SQLLITE_no_example\CMakeFiles\5d7536fb3d9839584a35b792f11e666f\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A334CD12-9CC3-397C-8EBD-44688537A3C8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A3EFF9CF-4281-3576-8F58-A3392ADC6901}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>NetSSLWin</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NetSSLWin.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PocoNetSSLWind</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NetSSLWin.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PocoNetSSLWin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">NetSSLWin.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">PocoNetSSLWin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">NetSSLWin.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">PocoNetSSLWin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include;G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src;G:\NNNNET\poco_1.7.9\poco\Net\include;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\Util\include;G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;POCO_NO_AUTOMATIC_LIBS;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;CMAKE_INTDIR="Debug";NetSSL_Win_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;POCO_NO_AUTOMATIC_LIBS;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;CMAKE_INTDIR=\"Debug\";NetSSL_Win_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include;G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src;G:\NNNNET\poco_1.7.9\poco\Net\include;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\Util\include;G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include;G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src;G:\NNNNET\poco_1.7.9\poco\Net\include;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\Util\include;G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\Debug\PocoNetd.lib;..\lib\Debug\PocoUtild.lib;Crypt32.lib;ws2_32.lib;iphlpapi.lib;..\lib\Debug\PocoXMLd.lib;..\lib\Debug\PocoJSONd.lib;..\lib\Debug\PocoFoundationd.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/lib/Debug/PocoNetSSLWind.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/bin/Debug/PocoNetSSLWind.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include;G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src;G:\NNNNET\poco_1.7.9\poco\Net\include;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\Util\include;G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_NO_AUTOMATIC_LIBS;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;CMAKE_INTDIR="Release";NetSSL_Win_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_NO_AUTOMATIC_LIBS;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;CMAKE_INTDIR=\"Release\";NetSSL_Win_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include;G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src;G:\NNNNET\poco_1.7.9\poco\Net\include;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\Util\include;G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include;G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src;G:\NNNNET\poco_1.7.9\poco\Net\include;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\Util\include;G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\Release\PocoNet.lib;..\lib\Release\PocoUtil.lib;Crypt32.lib;ws2_32.lib;iphlpapi.lib;..\lib\Release\PocoXML.lib;..\lib\Release\PocoJSON.lib;..\lib\Release\PocoFoundation.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/lib/Release/PocoNetSSLWin.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/bin/Release/PocoNetSSLWin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include;G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src;G:\NNNNET\poco_1.7.9\poco\Net\include;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\Util\include;G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_NO_AUTOMATIC_LIBS;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;CMAKE_INTDIR="MinSizeRel";NetSSL_Win_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_NO_AUTOMATIC_LIBS;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;CMAKE_INTDIR=\"MinSizeRel\";NetSSL_Win_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include;G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src;G:\NNNNET\poco_1.7.9\poco\Net\include;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\Util\include;G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include;G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src;G:\NNNNET\poco_1.7.9\poco\Net\include;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\Util\include;G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\MinSizeRel\PocoNet.lib;..\lib\MinSizeRel\PocoUtil.lib;Crypt32.lib;ws2_32.lib;iphlpapi.lib;..\lib\MinSizeRel\PocoXML.lib;..\lib\MinSizeRel\PocoJSON.lib;..\lib\MinSizeRel\PocoFoundation.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/lib/MinSizeRel/PocoNetSSLWin.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/bin/MinSizeRel/PocoNetSSLWin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include;G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src;G:\NNNNET\poco_1.7.9\poco\Net\include;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\Util\include;G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_NO_AUTOMATIC_LIBS;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;CMAKE_INTDIR="RelWithDebInfo";NetSSL_Win_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_NO_AUTOMATIC_LIBS;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;CMAKE_INTDIR=\"RelWithDebInfo\";NetSSL_Win_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include;G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src;G:\NNNNET\poco_1.7.9\poco\Net\include;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\Util\include;G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include;G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src;G:\NNNNET\poco_1.7.9\poco\Net\include;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\Util\include;G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\JSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\RelWithDebInfo\PocoNet.lib;..\lib\RelWithDebInfo\PocoUtil.lib;Crypt32.lib;ws2_32.lib;iphlpapi.lib;..\lib\RelWithDebInfo\PocoXML.lib;..\lib\RelWithDebInfo\PocoJSON.lib;..\lib\RelWithDebInfo\PocoFoundation.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/lib/RelWithDebInfo/PocoNetSSLWin.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/bin/RelWithDebInfo/PocoNetSSLWin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule G:/NNNNET/poco_1.7.9/poco/NetSSL_Win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/NNNNET/poco_1.7.9/poco -BG:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example --check-stamp-file G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/NetSSL_Win/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\cmake\PocoNetSSLWinConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\NetSSL_Win\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule G:/NNNNET/poco_1.7.9/poco/NetSSL_Win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/NNNNET/poco_1.7.9/poco -BG:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example --check-stamp-file G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/NetSSL_Win/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\cmake\PocoNetSSLWinConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\NetSSL_Win\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule G:/NNNNET/poco_1.7.9/poco/NetSSL_Win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/NNNNET/poco_1.7.9/poco -BG:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example --check-stamp-file G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/NetSSL_Win/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\cmake\PocoNetSSLWinConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\NetSSL_Win\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule G:/NNNNET/poco_1.7.9/poco/NetSSL_Win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/NNNNET/poco_1.7.9/poco -BG:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example --check-stamp-file G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/NetSSL_Win/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\cmake\PocoNetSSLWinConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\NetSSL_Win\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\AcceptCertificateHandler.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\CertificateHandlerFactory.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\CertificateHandlerFactoryMgr.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\ConsoleCertificateHandler.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\Context.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\HTTPSClientSession.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\HTTPSSessionInstantiator.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\HTTPSStreamFactory.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\InvalidCertificateHandler.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\KeyConsoleHandler.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\KeyFileHandler.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\PrivateKeyFactory.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\PrivateKeyFactoryMgr.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\PrivateKeyPassphraseHandler.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\RejectCertificateHandler.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\SSLException.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\SSLManager.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\SecureSMTPClientSession.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\SecureServerSocket.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\SecureServerSocketImpl.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\SecureSocketImpl.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\SecureStreamSocket.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\SecureStreamSocketImpl.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\Session.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\Utility.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\VerificationErrorArgs.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\src\X509Certificate.cpp" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\AcceptCertificateHandler.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\AutoSecBufferDesc.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\CertificateHandlerFactory.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\CertificateHandlerFactoryMgr.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\ConsoleCertificateHandler.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\Context.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\HTTPSClientSession.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\HTTPSSessionInstantiator.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\HTTPSStreamFactory.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\InvalidCertificateHandler.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\KeyConsoleHandler.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\KeyFileHandler.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\NetSSL.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\PrivateKeyFactory.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\PrivateKeyFactoryMgr.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\PrivateKeyPassphraseHandler.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\RejectCertificateHandler.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\SSLException.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\SSLManager.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\SecureSMTPClientSession.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\SecureServerSocket.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\SecureServerSocketImpl.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\SecureSocketImpl.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\SecureStreamSocket.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\SecureStreamSocketImpl.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\Session.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\Utility.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\VerificationErrorArgs.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_Win\include\Poco\Net\X509Certificate.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\ZERO_CHECK.vcxproj">
+      <Project>{680D35D3-63A6-3123-96F5-80215083E177}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\Foundation\Foundation.vcxproj">
+      <Project>{F9F8A78C-4601-3827-A03F-98084CFC52EC}</Project>
+      <Name>Foundation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\JSON\JSON.vcxproj">
+      <Project>{F6B05E09-7DBD-3016-85DF-734AFE6AC419}</Project>
+      <Name>JSON</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\Net\Net.vcxproj">
+      <Project>{39DE89E2-4031-3EB2-8C80-C9036010EC67}</Project>
+      <Name>Net</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\Util\Util.vcxproj">
+      <Project>{71126210-DA87-3F1C-A709-E0891425CF24}</Project>
+      <Name>Util</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\XML\XML.vcxproj">
+      <Project>{1AF5CA72-E379-3ACD-BABF-A3EC6D24D04B}</Project>
+      <Name>XML</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

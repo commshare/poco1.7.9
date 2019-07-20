@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\NNNNET\poco_1.7.9\poco\_build_win32_no_example\CMakeFiles\814d461d0a54ef4eb621feb7d7fc760a\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2F4D7ACF-4B5F-37E7-9EA2-563EFA27F354}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

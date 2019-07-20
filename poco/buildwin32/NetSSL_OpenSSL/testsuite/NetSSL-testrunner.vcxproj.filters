@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\Driver.cpp">
+      <Filter>Unknown\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\HTTPSClientSessionTest.cpp">
+      <Filter>Unknown\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\HTTPSClientTestSuite.cpp">
+      <Filter>Unknown\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\HTTPSServerTest.cpp">
+      <Filter>Unknown\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\HTTPSServerTestSuite.cpp">
+      <Filter>Unknown\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\HTTPSStreamFactoryTest.cpp">
+      <Filter>Unknown\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\HTTPSTestServer.cpp">
+      <Filter>Unknown\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\NetSSLTestSuite.cpp">
+      <Filter>Unknown\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\TCPServerTest.cpp">
+      <Filter>Unknown\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\TCPServerTestSuite.cpp">
+      <Filter>Unknown\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\WinCEDriver.cpp">
+      <Filter>Unknown\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\WinDriver.cpp">
+      <Filter>Unknown\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\HTTPSClientSessionTest.h">
+      <Filter>Unknown\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\HTTPSClientTestSuite.h">
+      <Filter>Unknown\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\HTTPSServerTest.h">
+      <Filter>Unknown\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\HTTPSServerTestSuite.h">
+      <Filter>Unknown\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\HTTPSStreamFactoryTest.h">
+      <Filter>Unknown\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\HTTPSTestServer.h">
+      <Filter>Unknown\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\NetSSLTestSuite.h">
+      <Filter>Unknown\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\TCPServerTest.h">
+      <Filter>Unknown\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\src\TCPServerTestSuite.h">
+      <Filter>Unknown\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\NNNNET\poco_1.7.9\poco\NetSSL_OpenSSL\testsuite\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Unknown">
+      <UniqueIdentifier>{11336703-E975-33F7-8AB3-BCCBD0E8E9C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unknown\Header Files">
+      <UniqueIdentifier>{90CB6516-B090-3232-9F8A-4DA916E94D15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unknown\Source Files">
+      <UniqueIdentifier>{AD9ED0BB-B99F-3F00-B978-F181D7F8A636}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

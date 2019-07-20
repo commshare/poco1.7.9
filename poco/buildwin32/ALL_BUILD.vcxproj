@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{170C29BB-2DB0-395D-8D03-1280D9F959E0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\NNNNET\poco_1.7.9\poco\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule G:/NNNNET/poco_1.7.9/poco/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/NNNNET/poco_1.7.9/poco -BG:/NNNNET/poco_1.7.9/poco/buildwin32 --check-stamp-file G:/NNNNET/poco_1.7.9/poco/buildwin32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CPack.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CPackComponent.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTest.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTestTargets.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTestUseLaunchers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.15\Modules\DartConfiguration.tcl.in;D:\Program Files\CMake\share\cmake-3.15\Modules\FindCygwin.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\InstallRequiredSystemLibraries.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Templates\CPackConfig.cmake.in;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\3.15.0-rc4\CMakeCCompiler.cmake;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\3.15.0-rc4\CMakeCXXCompiler.cmake;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\3.15.0-rc4\CMakeRCCompiler.cmake;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\3.15.0-rc4\CMakeSystem.cmake;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\feature_tests.cxx;G:\NNNNET\poco_1.7.9\poco\cmake\DefinePlatformSpecifc.cmake;G:\NNNNET\poco_1.7.9\poco\cmake\FindAPR.cmake;G:\NNNNET\poco_1.7.9\poco\cmake\FindApache2.cmake;G:\NNNNET\poco_1.7.9\poco\cmake\PocoConfig.cmake.in;G:\NNNNET\poco_1.7.9\poco\cmake\PocoMacros.cmake;G:\NNNNET\poco_1.7.9\poco\cmake\cmake_uninstall.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule G:/NNNNET/poco_1.7.9/poco/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/NNNNET/poco_1.7.9/poco -BG:/NNNNET/poco_1.7.9/poco/buildwin32 --check-stamp-file G:/NNNNET/poco_1.7.9/poco/buildwin32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CPack.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CPackComponent.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTest.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTestTargets.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTestUseLaunchers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.15\Modules\DartConfiguration.tcl.in;D:\Program Files\CMake\share\cmake-3.15\Modules\FindCygwin.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\InstallRequiredSystemLibraries.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Templates\CPackConfig.cmake.in;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\3.15.0-rc4\CMakeCCompiler.cmake;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\3.15.0-rc4\CMakeCXXCompiler.cmake;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\3.15.0-rc4\CMakeRCCompiler.cmake;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\3.15.0-rc4\CMakeSystem.cmake;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\feature_tests.cxx;G:\NNNNET\poco_1.7.9\poco\cmake\DefinePlatformSpecifc.cmake;G:\NNNNET\poco_1.7.9\poco\cmake\FindAPR.cmake;G:\NNNNET\poco_1.7.9\poco\cmake\FindApache2.cmake;G:\NNNNET\poco_1.7.9\poco\cmake\PocoConfig.cmake.in;G:\NNNNET\poco_1.7.9\poco\cmake\PocoMacros.cmake;G:\NNNNET\poco_1.7.9\poco\cmake\cmake_uninstall.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule G:/NNNNET/poco_1.7.9/poco/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/NNNNET/poco_1.7.9/poco -BG:/NNNNET/poco_1.7.9/poco/buildwin32 --check-stamp-file G:/NNNNET/poco_1.7.9/poco/buildwin32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CPack.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CPackComponent.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTest.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTestTargets.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTestUseLaunchers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.15\Modules\DartConfiguration.tcl.in;D:\Program Files\CMake\share\cmake-3.15\Modules\FindCygwin.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\InstallRequiredSystemLibraries.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Templates\CPackConfig.cmake.in;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\3.15.0-rc4\CMakeCCompiler.cmake;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\3.15.0-rc4\CMakeCXXCompiler.cmake;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\3.15.0-rc4\CMakeRCCompiler.cmake;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\3.15.0-rc4\CMakeSystem.cmake;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\feature_tests.cxx;G:\NNNNET\poco_1.7.9\poco\cmake\DefinePlatformSpecifc.cmake;G:\NNNNET\poco_1.7.9\poco\cmake\FindAPR.cmake;G:\NNNNET\poco_1.7.9\poco\cmake\FindApache2.cmake;G:\NNNNET\poco_1.7.9\poco\cmake\PocoConfig.cmake.in;G:\NNNNET\poco_1.7.9\poco\cmake\PocoMacros.cmake;G:\NNNNET\poco_1.7.9\poco\cmake\cmake_uninstall.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule G:/NNNNET/poco_1.7.9/poco/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/NNNNET/poco_1.7.9/poco -BG:/NNNNET/poco_1.7.9/poco/buildwin32 --check-stamp-file G:/NNNNET/poco_1.7.9/poco/buildwin32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CPack.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CPackComponent.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTest.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTestTargets.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTestUseLaunchers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.15\Modules\DartConfiguration.tcl.in;D:\Program Files\CMake\share\cmake-3.15\Modules\FindCygwin.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\InstallRequiredSystemLibraries.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Templates\CPackConfig.cmake.in;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\3.15.0-rc4\CMakeCCompiler.cmake;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\3.15.0-rc4\CMakeCXXCompiler.cmake;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\3.15.0-rc4\CMakeRCCompiler.cmake;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\3.15.0-rc4\CMakeSystem.cmake;G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\feature_tests.cxx;G:\NNNNET\poco_1.7.9\poco\cmake\DefinePlatformSpecifc.cmake;G:\NNNNET\poco_1.7.9\poco\cmake\FindAPR.cmake;G:\NNNNET\poco_1.7.9\poco\cmake\FindApache2.cmake;G:\NNNNET\poco_1.7.9\poco\cmake\PocoConfig.cmake.in;G:\NNNNET\poco_1.7.9\poco\cmake\PocoMacros.cmake;G:\NNNNET\poco_1.7.9\poco\cmake\cmake_uninstall.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">G:\NNNNET\poco_1.7.9\poco\buildwin32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\ZERO_CHECK.vcxproj">
+      <Project>{6969E135-DBF1-316D-855A-21200D3C96F5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\samples\ActiveMethod\ActiveMethod.vcxproj">
+      <Project>{AD43B8D5-467B-3EC6-82C1-7DFF743D164B}</Project>
+      <Name>ActiveMethod</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\samples\Activity\Activity.vcxproj">
+      <Project>{2566199A-79F9-3D4F-B80E-35E8A5FFC205}</Project>
+      <Name>Activity</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\samples\BinaryReaderWriter\BinaryReaderWriter.vcxproj">
+      <Project>{B39F577E-9177-30B9-921B-02AD6C33B295}</Project>
+      <Name>BinaryReaderWriter</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Data\samples\Binding\Binding.vcxproj">
+      <Project>{C7B20F9F-EF63-3858-BCD3-07122A8A1FE9}</Project>
+      <Name>Binding</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\CppUnit\CppUnit.vcxproj">
+      <Project>{45E54929-805C-3456-BEB3-30F02C5DEE50}</Project>
+      <Name>CppUnit</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Crypto\Crypto.vcxproj">
+      <Project>{9CBA6187-07EF-330E-B03F-929AF4E53533}</Project>
+      <Name>Crypto</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Crypto\testsuite\Crypto-testrunner.vcxproj">
+      <Project>{806A5C46-1DBE-355D-B440-8964C0673598}</Project>
+      <Name>Crypto-testrunner</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Data\Data.vcxproj">
+      <Project>{D9B149AB-4E0C-355A-A9E8-B7EA5E0AD944}</Project>
+      <Name>Data</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Data\testsuite\Data-testrunner.vcxproj">
+      <Project>{BDA70191-224E-3A6E-83AA-11F841029184}</Project>
+      <Name>Data-testrunner</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\samples\DateTime\DateTime.vcxproj">
+      <Project>{E7EE5927-A254-3091-8EE8-5F70A80D0455}</Project>
+      <Name>DateTime</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Net\samples\EchoServer\EchoServer.vcxproj">
+      <Project>{19D397BF-AD2D-34F8-ADE3-0F5A6EE0AA00}</Project>
+      <Name>EchoServer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\Foundation.vcxproj">
+      <Project>{09835CF9-59FF-3727-B854-933BD1F4E100}</Project>
+      <Name>Foundation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\testsuite\Foundation-testrunner.vcxproj">
+      <Project>{39334C0A-944C-33D1-8281-20C681C4B672}</Project>
+      <Name>Foundation-testrunner</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Net\samples\HTTPFormServer\HTTPFormServer.vcxproj">
+      <Project>{E5167CBD-99B4-3247-BD09-03D39422E6EA}</Project>
+      <Name>HTTPFormServer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Net\samples\HTTPLoadTest\HTTPLoadTest.vcxproj">
+      <Project>{49131653-8081-3811-B533-4CBFA5AFD9B3}</Project>
+      <Name>HTTPLoadTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\NetSSL_OpenSSL\samples\HTTPSTimeServer\HTTPSTimeServer.vcxproj">
+      <Project>{5181A8CA-5995-3F0E-ABAA-F1A133FE180A}</Project>
+      <Name>HTTPSTimeServer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Net\samples\HTTPTimeServer\HTTPTimeServer.vcxproj">
+      <Project>{C51E6EAF-D559-3507-A1A8-CDB903FBAC51}</Project>
+      <Name>HTTPTimeServer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\samples\LogRotation\LogRotation.vcxproj">
+      <Project>{05A238ED-3F0A-37BB-A650-75E1C5C102BE}</Project>
+      <Name>LogRotation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\samples\Logger\Logger.vcxproj">
+      <Project>{C3A09ED8-81DF-3016-B51C-634298B0D314}</Project>
+      <Name>Logger</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Net\samples\Mail\Mail.vcxproj">
+      <Project>{837F104E-2F5B-3CAD-B158-E2A03B7E37CB}</Project>
+      <Name>Mail</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\NetSSL_OpenSSL\samples\Mail\Mail-ssl.vcxproj">
+      <Project>{286418DE-3666-3E6F-9257-49E17063000F}</Project>
+      <Name>Mail-ssl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Net\Net.vcxproj">
+      <Project>{3EE4A3CD-F531-3D20-803F-9741869ECDC5}</Project>
+      <Name>Net</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Net\testsuite\Net-testrunner.vcxproj">
+      <Project>{92483F78-1959-3579-8F62-650E76126D3B}</Project>
+      <Name>Net-testrunner</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\NetSSL_OpenSSL\NetSSL.vcxproj">
+      <Project>{529E36F2-C089-30F6-9E15-2AF3EEA9C45B}</Project>
+      <Name>NetSSL</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\NetSSL_OpenSSL\testsuite\NetSSL-testrunner.vcxproj">
+      <Project>{00EC56BF-CCC7-35BF-9D15-C63C145ADD24}</Project>
+      <Name>NetSSL-testrunner</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\samples\NotificationQueue\NotificationQueue.vcxproj">
+      <Project>{61A4D185-AE7F-3401-9A4B-6719CE614824}</Project>
+      <Name>NotificationQueue</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Net\samples\Ping\Ping.vcxproj">
+      <Project>{7317179D-19D0-307B-957C-AA91F6B5F5E5}</Project>
+      <Name>Ping</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Data\samples\RecordSet\RecordSet.vcxproj">
+      <Project>{D6CFE34F-FEC5-3A94-8564-00DD584B67EA}</Project>
+      <Name>RecordSet</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Data\samples\RowFormatter\RowFormatter.vcxproj">
+      <Project>{021B3C4F-C552-3583-A363-D291F67E88C7}</Project>
+      <Name>RowFormatter</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Net\samples\SMTPLogger\SMTPLogger.vcxproj">
+      <Project>{FB764751-33C9-37ED-A6F2-B3BC612C23D6}</Project>
+      <Name>SMTPLogger</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Util\samples\SampleApp\SampleApp.vcxproj">
+      <Project>{1EDA1D19-5A9B-3948-B012-C9DB4956438E}</Project>
+      <Name>SampleApp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Util\samples\SampleServer\SampleServer.vcxproj">
+      <Project>{FFBF8B82-F3A1-3204-8F16-3F39E6882753}</Project>
+      <Name>SampleServer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\samples\StringTokenizer\StringTokenizer.vcxproj">
+      <Project>{62708A16-9E59-38F8-98C2-8D32D183954D}</Project>
+      <Name>StringTokenizer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\testsuite\TestApp.vcxproj">
+      <Project>{04333508-F6FC-3F48-8491-123DD1151FE9}</Project>
+      <Name>TestApp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\testsuite\TestLibrary.vcxproj">
+      <Project>{33CB642F-45C4-331A-85B4-3CCAB0794A87}</Project>
+      <Name>TestLibrary</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Net\samples\TimeServer\TimeServer.vcxproj">
+      <Project>{22ECA958-6CF6-3909-B925-F8767EAEB0C6}</Project>
+      <Name>TimeServer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\samples\Timer\Timer.vcxproj">
+      <Project>{733AC8B9-E637-3782-B765-D78BF9C3448A}</Project>
+      <Name>Timer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Data\samples\Tuple\Tuple.vcxproj">
+      <Project>{4A4D592B-A54F-3EDD-B6D3-BC464416D16C}</Project>
+      <Name>Tuple</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\NetSSL_OpenSSL\samples\TwitterClient\TwitterCLient.vcxproj">
+      <Project>{18722292-0DB1-3989-99B8-BF808D455581}</Project>
+      <Name>TwitterCLient</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Data\samples\TypeHandler\TypeHandler.vcxproj">
+      <Project>{E9C1E642-BA19-3BE2-9117-D3CA782D64E7}</Project>
+      <Name>TypeHandler</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\samples\URI\URI.vcxproj">
+      <Project>{E0F907EE-8A6E-3D69-879C-B3B5746D8147}</Project>
+      <Name>URI</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Util\samples\Units\Units.vcxproj">
+      <Project>{50162BFF-85BC-3EEC-A96F-094FE68162B8}</Project>
+      <Name>Units</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Util\Util.vcxproj">
+      <Project>{24E71887-5229-30AE-87DF-29F77CF27A43}</Project>
+      <Name>Util</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Util\testsuite\Util-testrunner.vcxproj">
+      <Project>{8F640CC2-677D-3118-A0D8-BCDA4559BDBF}</Project>
+      <Name>Util-testrunner</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Net\samples\WebSocketServer\WebSocketServer.vcxproj">
+      <Project>{12A7A698-28BC-348F-B5B7-1A080B1B8EA0}</Project>
+      <Name>WebSocketServer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\samples\base64decode\base64decode.vcxproj">
+      <Project>{A0D00E86-636E-3CB3-9357-11CE7025DF7B}</Project>
+      <Name>base64decode</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\samples\base64encode\base64encode.vcxproj">
+      <Project>{D067BB70-9653-3158-8507-3A2CE2CA9207}</Project>
+      <Name>base64encode</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\samples\deflate\deflate.vcxproj">
+      <Project>{05A4A4D2-F24C-3522-9D98-CC3A3D4B2AA3}</Project>
+      <Name>deflate</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Net\samples\dict\dict.vcxproj">
+      <Project>{E8D48CB2-3514-3453-813A-CFC104758D0B}</Project>
+      <Name>dict</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\samples\dir\dir.vcxproj">
+      <Project>{AE2104E0-DF40-31C9-87BE-A5C7F21FE6D7}</Project>
+      <Name>dir</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Net\samples\download\download.vcxproj">
+      <Project>{D84F61E5-81AE-3081-87AC-983125CB9264}</Project>
+      <Name>download</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\NetSSL_OpenSSL\samples\download\download-ssl.vcxproj">
+      <Project>{16462829-CA21-3F7B-90AE-65C2C80B3CF7}</Project>
+      <Name>download-ssl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Crypto\samples\genrsakey\genrsakey.vcxproj">
+      <Project>{C619D0B1-7CAF-3D16-A7D3-FF9AA97C1BD7}</Project>
+      <Name>genrsakey</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\samples\grep\grep.vcxproj">
+      <Project>{2F4EADF0-0457-33F1-AC1A-581B823F6FA3}</Project>
+      <Name>grep</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\samples\hmacmd5\hmacmd5.vcxproj">
+      <Project>{CD912836-4A72-3E49-B58D-9C9B15C62EB0}</Project>
+      <Name>hmacmd5</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Net\samples\httpget\httpget.vcxproj">
+      <Project>{209BBDEB-19FB-3F3F-8E96-7B2220E011F1}</Project>
+      <Name>httpget</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\samples\inflate\inflate.vcxproj">
+      <Project>{7B680506-7CA1-37A0-954F-D8891DD03747}</Project>
+      <Name>inflate</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\samples\md5\md5.vcxproj">
+      <Project>{07CD1456-0C2E-362F-B21F-88A12126ED43}</Project>
+      <Name>md5</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Util\samples\pkill\pkill.vcxproj">
+      <Project>{F42FC8FE-19CC-3A3A-B944-EF785EBA4576}</Project>
+      <Name>pkill</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\samples\uuidgen\uuidgen.vcxproj">
+      <Project>{9827FF74-DB62-3E28-A864-48F6B079F242}</Project>
+      <Name>uuidgen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

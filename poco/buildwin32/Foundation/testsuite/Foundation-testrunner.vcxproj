@@ -1,0 +1,658 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{39334C0A-944C-33D1-8281-20C681C4B672}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Foundation-testrunner</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">G:\NNNNET\poco_1.7.9\poco\buildwin32\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Foundation-testrunner.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Foundation-testrunner</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">G:\NNNNET\poco_1.7.9\poco\buildwin32\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Foundation-testrunner.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Foundation-testrunner</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">G:\NNNNET\poco_1.7.9\poco\buildwin32\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Foundation-testrunner.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Foundation-testrunner</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">G:\NNNNET\poco_1.7.9\poco\buildwin32\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Foundation-testrunner.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Foundation-testrunner</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\CppUnit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;PCRE_STATIC;POCO_NO_AUTOMATIC_LIBS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;PCRE_STATIC;POCO_NO_AUTOMATIC_LIBS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\CppUnit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\CppUnit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy_directory G:/NNNNET/poco_1.7.9/poco/Foundation/testsuite/data G:/NNNNET/poco_1.7.9/poco/buildwin32/bin/data
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\PocoFoundationd.lib;..\..\lib\Debug\CppUnitd.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/NNNNET/poco_1.7.9/poco/buildwin32/lib/Debug/Foundation-testrunner.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/NNNNET/poco_1.7.9/poco/buildwin32/bin/Debug/Foundation-testrunner.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\CppUnit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;PCRE_STATIC;POCO_NO_AUTOMATIC_LIBS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;PCRE_STATIC;POCO_NO_AUTOMATIC_LIBS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\CppUnit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\CppUnit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy_directory G:/NNNNET/poco_1.7.9/poco/Foundation/testsuite/data G:/NNNNET/poco_1.7.9/poco/buildwin32/bin/data
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\PocoFoundation.lib;..\..\lib\Release\CppUnit.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/NNNNET/poco_1.7.9/poco/buildwin32/lib/Release/Foundation-testrunner.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/NNNNET/poco_1.7.9/poco/buildwin32/bin/Release/Foundation-testrunner.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\CppUnit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;PCRE_STATIC;POCO_NO_AUTOMATIC_LIBS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;PCRE_STATIC;POCO_NO_AUTOMATIC_LIBS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\CppUnit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\CppUnit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy_directory G:/NNNNET/poco_1.7.9/poco/Foundation/testsuite/data G:/NNNNET/poco_1.7.9/poco/buildwin32/bin/data
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\PocoFoundation.lib;..\..\lib\MinSizeRel\CppUnit.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/NNNNET/poco_1.7.9/poco/buildwin32/lib/MinSizeRel/Foundation-testrunner.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/NNNNET/poco_1.7.9/poco/buildwin32/bin/MinSizeRel/Foundation-testrunner.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\CppUnit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;PCRE_STATIC;POCO_NO_AUTOMATIC_LIBS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;PCRE_STATIC;POCO_NO_AUTOMATIC_LIBS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\CppUnit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation;G:\NNNNET\poco_1.7.9\poco\Foundation\include;G:\NNNNET\poco_1.7.9\poco\CppUnit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy_directory G:/NNNNET/poco_1.7.9/poco/Foundation/testsuite/data G:/NNNNET/poco_1.7.9/poco/buildwin32/bin/data
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\PocoFoundation.lib;..\..\lib\RelWithDebInfo\CppUnit.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/NNNNET/poco_1.7.9/poco/buildwin32/lib/RelWithDebInfo/Foundation-testrunner.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/NNNNET/poco_1.7.9/poco/buildwin32/bin/RelWithDebInfo/Foundation-testrunner.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule G:/NNNNET/poco_1.7.9/poco/Foundation/testsuite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/NNNNET/poco_1.7.9/poco -BG:/NNNNET/poco_1.7.9/poco/buildwin32 --check-stamp-file G:/NNNNET/poco_1.7.9/poco/buildwin32/Foundation/testsuite/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\testsuite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule G:/NNNNET/poco_1.7.9/poco/Foundation/testsuite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/NNNNET/poco_1.7.9/poco -BG:/NNNNET/poco_1.7.9/poco/buildwin32 --check-stamp-file G:/NNNNET/poco_1.7.9/poco/buildwin32/Foundation/testsuite/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\testsuite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule G:/NNNNET/poco_1.7.9/poco/Foundation/testsuite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/NNNNET/poco_1.7.9/poco -BG:/NNNNET/poco_1.7.9/poco/buildwin32 --check-stamp-file G:/NNNNET/poco_1.7.9/poco/buildwin32/Foundation/testsuite/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\testsuite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule G:/NNNNET/poco_1.7.9/poco/Foundation/testsuite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/NNNNET/poco_1.7.9/poco -BG:/NNNNET/poco_1.7.9/poco/buildwin32 --check-stamp-file G:/NNNNET/poco_1.7.9/poco/buildwin32/Foundation/testsuite/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\testsuite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ActiveDispatcherTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ActiveMethodTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ActivityTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\AnyTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ArrayTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\AutoPtrTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\AutoReleasePoolTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\Base32Test.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\Base64Test.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\BasicEventTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\BinaryReaderWriterTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ByteOrderTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\CacheTestSuite.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ChannelTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ClassLoaderTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ClockTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ConditionTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\CoreTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\CoreTestSuite.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\CountingStreamTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\CryptTestSuite.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DateTimeFormatterTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DateTimeParserTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DateTimeTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DateTimeTestSuite.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DigestStreamTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DirectoryIteratorsTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DirectoryWatcherTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\Driver.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DummyDelegate.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DynamicFactoryTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DynamicTestSuite.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\EventTestSuite.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ExpireCacheTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ExpireLRUCacheTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\FIFOBufferStreamTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\FIFOEventTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\FPETest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\FileChannelTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\FileStreamTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\FileTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\FilesystemTestSuite.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\FormatTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\FoundationTestSuite.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\GlobTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\HMACEngineTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\HashMapTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\HashSetTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\HashTableTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\HashingTestSuite.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\HexBinaryTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\LRUCacheTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\LineEndingConverterTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\LinearHashTableTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ListMapTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\LocalDateTimeTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\LogStreamTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\LoggerTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\LoggingFactoryTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\LoggingRegistryTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\LoggingTestSuite.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\MD4EngineTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\MD5EngineTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ManifestTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\MemoryPoolTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\MemoryStreamTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NDCTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NamedEventTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NamedMutexTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NamedTuplesTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NotificationCenterTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NotificationQueueTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NotificationsTestSuite.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NullStreamTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NumberFormatterTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NumberParserTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ObjectPoolTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\PBKDF2EngineTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\PathTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\PatternFormatterTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\PriorityEventTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\PriorityNotificationQueueTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ProcessTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ProcessesTestSuite.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\RWLockTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\RandomStreamTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\RandomTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\RegularExpressionTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\SHA1EngineTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\SemaphoreTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\SharedLibraryTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\SharedLibraryTestSuite.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\SharedMemoryTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\SharedPtrTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\SimpleFileChannelTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\SimpleHashTableTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\StopwatchTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\StreamConverterTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\StreamCopierTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\StreamTokenizerTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\StreamsTestSuite.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\StringTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\StringTokenizerTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TaskManagerTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TaskTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TaskTestSuite.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TeeStreamTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TestChannel.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TextBufferIteratorTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TextConverterTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TextEncodingTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TextIteratorTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TextTestSuite.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ThreadLocalTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ThreadPoolTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ThreadTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ThreadingTestSuite.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TimedNotificationQueueTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TimerTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TimespanTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TimestampTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TimezoneTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TuplesTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TypeListTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\URIStreamOpenerTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\URITest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\URITestSuite.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\UTF8StringTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\UUIDGeneratorTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\UUIDTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\UUIDTestSuite.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\UnicodeConverterTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\UniqueExpireCacheTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\UniqueExpireLRUCacheTest.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\VarTest.cpp" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\WinCEDriver.cpp" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\WinDriver.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ZLibTest.cpp" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ActiveDispatcherTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ActiveMethodTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ActivityTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\AnyTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ArrayTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\AutoPtrTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\AutoReleasePoolTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\Base32Test.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\Base64Test.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\BasicEventTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\BinaryReaderWriterTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ByteOrderTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\CacheTestSuite.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ChannelTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ClassLoaderTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ClockTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ConditionTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\CoreTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\CoreTestSuite.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\CountingStreamTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\CryptTestSuite.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DateTimeFormatterTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DateTimeParserTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DateTimeTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DateTimeTestSuite.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DigestStreamTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DirectoryIteratorsTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DirectoryWatcherTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DummyDelegate.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DynamicFactoryTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\DynamicTestSuite.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\EventTestSuite.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ExpireCacheTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ExpireLRUCacheTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\FIFOBufferStreamTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\FIFOEventTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\FPETest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\FileChannelTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\FileStreamTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\FileTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\FilesystemTestSuite.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\FormatTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\FoundationTestSuite.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\GlobTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\HMACEngineTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\HashMapTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\HashSetTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\HashTableTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\HashingTestSuite.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\HexBinaryTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\LRUCacheTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\LineEndingConverterTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\LinearHashTableTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ListMapTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\LocalDateTimeTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\LogStreamTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\LoggerTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\LoggingFactoryTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\LoggingRegistryTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\LoggingTestSuite.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\MD4EngineTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\MD5EngineTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ManifestTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\MemoryPoolTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\MemoryStreamTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NDCTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NamedEventTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NamedMutexTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NamedTuplesTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NotificationCenterTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NotificationQueueTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NotificationsTestSuite.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NullStreamTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NumberFormatterTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\NumberParserTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ObjectPoolTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\PBKDF2EngineTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\PathTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\PatternFormatterTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\PriorityEventTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\PriorityNotificationQueueTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ProcessTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ProcessesTestSuite.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\RWLockTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\RandomStreamTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\RandomTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\RegularExpressionTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\SHA1EngineTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\SemaphoreTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\SharedLibraryTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\SharedLibraryTestSuite.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\SharedMemoryTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\SharedPtrTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\SimpleFileChannelTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\SimpleHashTableTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\StopwatchTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\StreamConverterTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\StreamCopierTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\StreamTokenizerTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\StreamsTestSuite.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\StringTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\StringTokenizerTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TaskManagerTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TaskTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TaskTestSuite.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TeeStreamTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TestChannel.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TestPlugin.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TextBufferIteratorTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TextConverterTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TextEncodingTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TextIteratorTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TextTestSuite.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ThreadLocalTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ThreadPoolTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ThreadTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ThreadingTestSuite.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TimedNotificationQueueTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TimerTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TimespanTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TimestampTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TimezoneTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TuplesTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\TypeListTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\URIStreamOpenerTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\URITest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\URITestSuite.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\UTF8StringTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\UUIDGeneratorTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\UUIDTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\UUIDTestSuite.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\UnicodeConverterTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\UniqueExpireCacheTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\UniqueExpireLRUCacheTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\VarTest.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\Foundation\testsuite\src\ZLibTest.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\ZERO_CHECK.vcxproj">
+      <Project>{6969E135-DBF1-316D-855A-21200D3C96F5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\CppUnit\CppUnit.vcxproj">
+      <Project>{45E54929-805C-3456-BEB3-30F02C5DEE50}</Project>
+      <Name>CppUnit</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\buildwin32\Foundation\Foundation.vcxproj">
+      <Project>{09835CF9-59FF-3727-B854-933BD1F4E100}</Project>
+      <Name>Foundation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

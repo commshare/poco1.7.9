@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1AF5CA72-E379-3ACD-BABF-A3EC6D24D04B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>XML</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">XML.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PocoXMLd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">XML.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PocoXML</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">XML.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">PocoXML</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">XML.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">PocoXML</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\XML\src;G:\NNNNET\poco_1.7.9\poco\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;POCO_NO_AUTOMATIC_LIBS;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;XML_STATIC;XML_NS;XML_DTD;HAVE_EXPAT_CONFIG_H;CMAKE_INTDIR="Debug";XML_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;POCO_NO_AUTOMATIC_LIBS;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;XML_STATIC;XML_NS;XML_DTD;HAVE_EXPAT_CONFIG_H;CMAKE_INTDIR=\"Debug\";XML_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\XML\src;G:\NNNNET\poco_1.7.9\poco\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\XML\src;G:\NNNNET\poco_1.7.9\poco\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\Debug\PocoFoundationd.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/lib/Debug/PocoXMLd.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/bin/Debug/PocoXMLd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\XML\src;G:\NNNNET\poco_1.7.9\poco\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_NO_AUTOMATIC_LIBS;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;XML_STATIC;XML_NS;XML_DTD;HAVE_EXPAT_CONFIG_H;CMAKE_INTDIR="Release";XML_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_NO_AUTOMATIC_LIBS;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;XML_STATIC;XML_NS;XML_DTD;HAVE_EXPAT_CONFIG_H;CMAKE_INTDIR=\"Release\";XML_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\XML\src;G:\NNNNET\poco_1.7.9\poco\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\XML\src;G:\NNNNET\poco_1.7.9\poco\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\Release\PocoFoundation.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/lib/Release/PocoXML.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/bin/Release/PocoXML.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\XML\src;G:\NNNNET\poco_1.7.9\poco\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_NO_AUTOMATIC_LIBS;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;XML_STATIC;XML_NS;XML_DTD;HAVE_EXPAT_CONFIG_H;CMAKE_INTDIR="MinSizeRel";XML_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_NO_AUTOMATIC_LIBS;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;XML_STATIC;XML_NS;XML_DTD;HAVE_EXPAT_CONFIG_H;CMAKE_INTDIR=\"MinSizeRel\";XML_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\XML\src;G:\NNNNET\poco_1.7.9\poco\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\XML\src;G:\NNNNET\poco_1.7.9\poco\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\MinSizeRel\PocoFoundation.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/lib/MinSizeRel/PocoXML.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/bin/MinSizeRel/PocoXML.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\XML\src;G:\NNNNET\poco_1.7.9\poco\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_NO_AUTOMATIC_LIBS;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;XML_STATIC;XML_NS;XML_DTD;HAVE_EXPAT_CONFIG_H;CMAKE_INTDIR="RelWithDebInfo";XML_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;POCO_NO_AUTOMATIC_LIBS;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;__LCC__;XML_STATIC;XML_NS;XML_DTD;HAVE_EXPAT_CONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\";XML_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\XML\src;G:\NNNNET\poco_1.7.9\poco\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\NNNNET\poco_1.7.9\poco\XML\include;G:\NNNNET\poco_1.7.9\poco\XML\src;G:\NNNNET\poco_1.7.9\poco\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\RelWithDebInfo\PocoFoundation.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/lib/RelWithDebInfo/PocoXML.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/bin/RelWithDebInfo/PocoXML.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\NNNNET\poco_1.7.9\poco\XML\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule G:/NNNNET/poco_1.7.9/poco/XML/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/NNNNET/poco_1.7.9/poco -BG:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example --check-stamp-file G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/XML/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;G:\NNNNET\poco_1.7.9\poco\XML\cmake\PocoXMLConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\XML\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule G:/NNNNET/poco_1.7.9/poco/XML/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/NNNNET/poco_1.7.9/poco -BG:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example --check-stamp-file G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/XML/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;G:\NNNNET\poco_1.7.9\poco\XML\cmake\PocoXMLConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\XML\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule G:/NNNNET/poco_1.7.9/poco/XML/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/NNNNET/poco_1.7.9/poco -BG:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example --check-stamp-file G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/XML/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;G:\NNNNET\poco_1.7.9\poco\XML\cmake\PocoXMLConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\XML\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule G:/NNNNET/poco_1.7.9/poco/XML/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SG:/NNNNET/poco_1.7.9/poco -BG:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example --check-stamp-file G:/NNNNET/poco_1.7.9/poco/_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example/XML/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Program Files\CMake\share\cmake-3.15\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;G:\NNNNET\poco_1.7.9\poco\XML\cmake\PocoXMLConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\XML\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\AbstractContainerNode.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\AbstractNode.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\Attr.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\AttrMap.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\Attributes.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\AttributesImpl.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\CDATASection.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\CharacterData.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\ChildNodesList.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\Comment.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\ContentHandler.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\DOMBuilder.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\DOMException.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\DOMImplementation.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\DOMObject.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\DOMParser.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\DOMSerializer.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\DOMWriter.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\DTDHandler.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\DTDMap.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\DeclHandler.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\DefaultHandler.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\Document.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\DocumentEvent.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\DocumentFragment.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\DocumentType.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\Element.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\ElementsByTagNameList.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\Entity.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\EntityReference.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\EntityResolver.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\EntityResolverImpl.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\ErrorHandler.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\Event.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\EventDispatcher.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\EventException.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\EventListener.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\EventTarget.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\InputSource.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\LexicalHandler.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\Locator.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\LocatorImpl.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\MutationEvent.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\Name.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\NamePool.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\NamedNodeMap.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\NamespaceStrategy.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\NamespaceSupport.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\Node.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\NodeAppender.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\NodeFilter.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\NodeIterator.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\NodeList.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\Notation.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\ParserEngine.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\ProcessingInstruction.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\SAXException.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\SAXParser.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\Text.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\TreeWalker.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\WhitespaceFilter.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\XMLException.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\XMLFilter.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\XMLFilterImpl.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\XMLReader.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\XMLString.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\XMLWriter.cpp" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\AbstractContainerNode.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\AbstractNode.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\Attr.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\AttrMap.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\AutoPtr.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\CDATASection.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\CharacterData.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\ChildNodesList.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\Comment.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\DOMBuilder.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\DOMException.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\DOMImplementation.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\DOMObject.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\DOMParser.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\DOMSerializer.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\DOMWriter.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\DTDMap.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\Document.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\DocumentEvent.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\DocumentFragment.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\DocumentType.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\Element.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\ElementsByTagNameList.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\Entity.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\EntityReference.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\Event.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\EventDispatcher.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\EventException.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\EventListener.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\EventTarget.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\MutationEvent.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\NamedNodeMap.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\Node.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\NodeAppender.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\NodeFilter.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\NodeIterator.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\NodeList.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\Notation.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\ProcessingInstruction.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\Text.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\DOM\TreeWalker.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\Attributes.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\AttributesImpl.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\ContentHandler.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\DTDHandler.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\DeclHandler.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\DefaultHandler.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\EntityResolver.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\EntityResolverImpl.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\ErrorHandler.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\InputSource.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\LexicalHandler.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\Locator.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\LocatorImpl.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\NamespaceSupport.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\SAXException.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\SAXParser.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\WhitespaceFilter.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\XMLFilter.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\XMLFilterImpl.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\SAX\XMLReader.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\XML\Name.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\XML\NamePool.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\XML\NamespaceStrategy.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\XML\ParserEngine.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\XML\XML.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\XML\XMLException.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\XML\XMLStream.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\XML\XMLString.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\XML\XMLWriter.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\XML\expat.h" />
+    <ClInclude Include="G:\NNNNET\poco_1.7.9\poco\XML\include\Poco\XML\expat_external.h" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\xmlparse.cpp" />
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\xmlrole.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\xmltok.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\xmltok_impl.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="G:\NNNNET\poco_1.7.9\poco\XML\src\xmltok_ns.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\ZERO_CHECK.vcxproj">
+      <Project>{680D35D3-63A6-3123-96F5-80215083E177}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\NNNNET\poco_1.7.9\poco\_build_win32_NETSSLWIN_SQLLITE_JSON_XML_no_example\Foundation\Foundation.vcxproj">
+      <Project>{F9F8A78C-4601-3827-A03F-98084CFC52EC}</Project>
+      <Name>Foundation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
