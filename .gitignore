@@ -1,3 +1,7 @@
+#
+poco/_build/.vs/
+*.opendb
+
 # Compiled #
 ############
 *.com
